@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Muhammed Fayis P — full-stack software engineer building software that connects to the real world." />
+  <title>FAYIS_CORE / Systems Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#system" aria-label="Fayis Core home"><span class="brand-mark">◒</span> FAYIS_CORE <small>/ 01</small></a>
+    <div class="signal"><span class="signal-dot"></span> SYSTEM LIVE <span class="signal-time" id="clock">00:00:00</span></div>
+    <button class="menu-button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+  </header>
+  <nav class="nav-drawer" aria-label="Main navigation">
+    <span class="nav-kicker">NAVIGATE THE SYSTEM</span>
+    <a href="#system">01 / System</a><a href="#capabilities">02 / Capabilities</a><a href="#projects">03 / Projects</a><a href="#timeline">04 / Experience</a><a href="#contact">05 / Contact</a>
+  </nav>
+
+  <main>
+    <section class="hero" id="system">
+      <canvas id="network-canvas" aria-hidden="true"></canvas>
+      <div class="hero-grid"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> FULL-STACK SOFTWARE ENGINEER</p>
+        <h1>BUILDING<br><em>SOFTWARE</em><br>THAT MOVES.</h1>
+        <p class="hero-deck">Engineering the connective tissue between intelligent software and the physical world.</p>
+        <a class="enter-link" href="#capabilities"><span>ENTER THE SYSTEM</span><b>↘</b></a>
+      </div>
+      <div class="portrait-module reveal reveal-delay">
+        <div class="portrait-frame"><img src="assets/fayis-portrait.jpeg" alt="Muhammed Fayis P" /><span class="scanline"></span></div>
+        <div class="portrait-meta"><span>IDENTITY VERIFIED</span><span>KOCHI / UAE</span></div>
+        <div class="portrait-caption">MUHAMMED FAYIS P<br><small>SOFTWARE · AI · IoT · EMBEDDED</small></div>
+      </div>
+      <div class="hero-coordinates mono">09°55' N<br>76°16' E</div>
+      <div class="scroll-note mono">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="capabilities section-pad" id="capabilities">
+      <div class="section-index mono">02 / CAPABILITY MATRIX</div>
+      <div class="section-heading"><p class="eyebrow">THE ENGINEERING CORE</p><h2>ONE MIND.<br><em>MANY LAYERS.</em></h2></div>
+      <div class="capability-layout">
+        <p class="section-intro">A systems thinker working across the full stack — from a pixel on a screen to a packet on a wire, from model inference to a physical response.</p>
+        <div class="orbit-system" aria-label="Engineering capabilities">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="core-node"><span>FP</span><small>FAYIS<br>CORE</small></div>
+          <button class="orbit-node node-a">01 <strong>SOFTWARE</strong></button><button class="orbit-node node-b">02 <strong>AI / ML</strong></button><button class="orbit-node node-c">03 <strong>IoT</strong></button><button class="orbit-node node-d">04 <strong>VISION</strong></button>
+        </div>
+      </div>
+      <div class="capability-list"><div><span>01</span><b>FULL-STACK SYSTEMS</b><p>Django · React · Node · REST · PostgreSQL · AWS</p></div><div><span>02</span><b>INTELLIGENT INTERFACES</b><p>OCR · OpenCV · LLM integration · mobile applications</p></div><div><span>03</span><b>CONNECTED WORLDS</b><p>MQTT · Modbus · KNX · BLE · Zigbee · secure VPN infrastructure</p></div></div>
+    </section>
+
+    <section class="projects section-pad" id="projects">
+      <div class="section-index mono">03 / SELECTED SYSTEMS</div><div class="section-heading"><p class="eyebrow">FIELD NOTES</p><h2>BUILT FOR THE<br><em>REAL WORLD.</em></h2></div>
+      <div class="project-list">
+        <article class="project-row"><span class="project-no">01</span><div class="project-title"><h3>OCR VISION<br>PLATFORM</h3><p>Turning camera feeds into usable data.</p></div><div class="project-visual vision-visual"><div class="meter">842.6 <small>kWh</small></div><span class="box b1"></span><span class="box b2"></span><i>RTSP / OCR / OPENCV</i></div><div class="project-stat"><strong>99.8%</strong><span>ANDROID ACCURACY</span></div></article>
+        <article class="project-row"><span class="project-no">02</span><div class="project-title"><h3>INDUSTRIAL GAS<br>DETECTION</h3><p>Sensor telemetry, delivered before danger.</p></div><div class="project-visual gas-visual"><div class="gas-status"><span></span> CH₄ LEVEL: HIGH</div><div class="packet-line"><b>MQTT</b><b>GATEWAY</b><b>MOBILE</b></div><i>SENSOR → BACKEND → ALERT</i></div><div class="project-stat"><strong>REALTIME</strong><span>ALERT PIPELINE</span></div></article>
+        <article class="project-row"><span class="project-no">03</span><div class="project-title"><h3>SMART HOME<br>PLATFORM</h3><p>A building that speaks every protocol.</p></div><div class="project-visual home-visual"><div class="home-building"><span></span><span></span><span></span><span></span></div><i>KNX / BLE / ZIGBEE / IP</i></div><div class="project-stat"><strong>360°</strong><span>CONNECTED LIVING</span></div></article>
+        <article class="project-row"><span class="project-no">04</span><div class="project-title"><h3>EMBEDDED<br>CUSTOMIZATION</h3><p>Hardware, rewritten around the outcome.</p></div><div class="project-visual pcb-visual"><div class="pcb"><span></span><span></span><span></span><span></span></div><i>FIRMWARE / MCU / PCB</i></div><div class="project-stat"><strong>80%</strong><span>HARDWARE COST CUT</span></div></article>
+      </div>
+    </section>
+
+    <section class="timeline section-pad" id="timeline"><div class="section-index mono">04 / SYSTEM VERSIONS</div><div class="timeline-wrap"><div class="section-heading"><p class="eyebrow">THE RUN LOG</p><h2>ALWAYS<br><em>ITERATING.</em></h2></div><div class="versions"><div class="version active"><span>v5.0</span><div><b>EMBEDDED + SMART BUILDING SYSTEMS</b><p>2024 — PRESENT · SONIC TECHNOLOGIES, ABU DHABI</p></div></div><div class="version"><span>v4.0</span><div><b>AI + COMPUTER VISION</b><p>OCR systems, intelligent cameras, LLM integrations</p></div></div><div class="version"><span>v3.0</span><div><b>IoT + AUTOMATION</b><p>MQTT, Modbus, dashboards and industrial monitoring</p></div></div><div class="version"><span>v2.0</span><div><b>WEB + MOBILE SYSTEMS</b><p>10+ web applications · 7+ mobile applications</p></div></div><div class="version"><span>v1.0</span><div><b>FULL-STACK DEVELOPMENT</b><p>2023 · Freelance engineering · Arduino experiments</p></div></div></div></div></section>
+
+    <section class="contact section-pad" id="contact"><div class="contact-core"><div class="contact-ring"></div><div class="core-dot"></div><span class="mono">SIGNAL READY</span></div><div class="contact-copy"><p class="eyebrow">OPEN CHANNEL</p><h2>LET'S BUILD<br><em>SOMETHING REAL.</em></h2><p>Software. AI. IoT. Automation.</p><a class="contact-link" href="mailto:muhammedfayisp@gmail.com">muhammedfayisp@gmail.com <b>↗</b></a><div class="socials"><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LINKEDIN ↗</a><a href="https://github.com" target="_blank" rel="noreferrer">GITHUB ↗</a><span>CV AVAILABLE ON REQUEST</span></div></div></section>
+  </main>
+  <footer><span>© 2026 MUHAMMED FAYIS P</span><span>BUILT AT THE EDGE OF SOFTWARE &amp; HARDWARE</span><span class="mono">SYS.OK / 05</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
